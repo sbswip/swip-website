@@ -1,0 +1,335 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .navbar-expand-lg{
+        background: #000;
+    }
+    .header-btn{
+        display: none;
+    }
+    
+    .navbar-toggler {
+        float: right;
+        background: #fff;
+        border-radius: 0px;
+        padding: 5px;
+    }
+    
+    
+    .navbar-toggler-icon {
+        height: auto;
+    }
+    
+    .pricing-block{
+        margin-bottom: 120px;
+    }
+    
+    .footer-widget{
+        margin-bottom: 30px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-nav {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        float: right;
+        background: #fff;
+        border-radius: 0px;
+        padding: 5px;
+    }
+    .navbar-expand-lg{
+        background: #000;
+    }
+    .navbar-toggler-icon{
+        height: auto;
+    }
+    .navbar-collapse.collapse .navbar-nav .nav-link {
+        padding: 8px 0px 8px 20px;
+    }
+      .banner-content h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .banner-content p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .content-padding {
+        padding: 60px 0px 46px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #banner-slider img {
+        height: 600px;
+    }
+    #banner-slider .banner-img img {
+        height: auto;
+    }
+
+
+    .section-title {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .pricing-block,
+    .blog-block,
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+    .form-inline .form-control {
+        width: auto;
+    }
+
+
+    .feature-block {
+        padding-left: 0px;
+    }
+
+    .feature-block .icon-left {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+
+    .pricing-text {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+
+    .pricing-text .line {
+        margin: 20px auto;
+    }
+
+    .blog-block h5 {
+        font-size: 16px;
+    }
+
+
+    .trans-navigation .navbar-brand .b-logo {
+        display: none;
+    }
+
+
+    .trans-navigation.header-white .navbar-brand .w-logo {
+        display: none;
+    }
+
+    .trans-navigation.header-white .navbar-brand .b-logo {
+        display: block;
+    }
+    .about-text {
+        text-align: left !important;
+        margin-bottom: 20px;
+    }
+    .banner-area .content-padding {
+        padding: 170px 0px 150px;
+    }
+    .header-btn{
+        display: none;
+    }
+    
+    .navbar-expand-lg{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .counter-stat{
+        margin-bottom: 30px;
+    }
+    .team-img{
+        float: none;
+    }
+    
+    .pricing-block{
+        margin-bottom: 90px;
+    }
+    
+    .service-img{
+        margin-bottom: 30px;
+    }
+    
+    .footer-widget{
+        margin-bottom: 40px;
+    }
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+
+    .logo {
+        padding-left: 20px;
+    }
+    .navbar-toggler-icon {
+        background: #fff;
+        padding: 5px;
+        margin-top: -5px;
+    }
+    .navbar-toggler-icon:focus {
+        outline: none;
+    }
+    #banner-slider img {
+        height: 407px;
+    }
+    #banner-slider .banner-img img {
+        display: none;
+    }
+    
+    .banner-content h1{
+        font-size: 24px;
+    }
+    
+    .banner-content p{
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .banner-area .content-padding {
+        padding: 170px 0px 150px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .section-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .pricing-block,
+    .blog-block,
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    .navbar-collapse.collapse .navbar-nav .nav-link {
+        padding: 8px 0px 8px 20px;
+    }
+    .carousel-control-prev span,
+    .carousel-control-next span {
+        width: 35px;
+        height: 35px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    
+    .testimonial-content {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .testimonial-content p{
+        font-size: 16px;
+    }
+
+    .pricing-text {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .pricing-text .line {
+        margin: 20px auto;
+    }
+    .about-block {
+        margin-bottom: 30px;
+    }
+
+    .trans-navigation {
+        padding: 20px 0px;
+    }
+
+
+    .counter-block {
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        margin-top: 30px;
+    }
+
+
+    .trans-navigation .navbar-brand .b-logo {
+        display: none;
+    }
+
+
+    .trans-navigation.header-white .navbar-brand .w-logo {
+        display: none;
+    }
+
+    .trans-navigation.header-white .navbar-brand .b-logo {
+        display: block;
+    }
+
+    .navbar.navbar-expand-lg.fixed-top.site-navigation.trans-navigation.header-white {
+        top: 0px;
+        padding: 15px 10px;
+    }
+
+    .about-text {
+        text-align: left !important;
+        margin-bottom: 30px;
+    }
+    
+    .header-btn{
+        display: none;
+    }
+    
+    .navbar-expand-lg{
+        padding-left: 15px;
+        padding-right: 15px;
+        background: #000;
+    }
+    .counter-stat{
+        margin-bottom: 30px;
+    }
+    .team-img{
+        float: none;
+    }
+    
+    .pricing-block{
+        margin-bottom: 90px;
+    }
+    
+    .service-img{
+        margin-bottom: 30px;
+    }
+}
+
+
+

@@ -422,20 +422,20 @@ h5.subtitle {
 ------------------------*/
 
 .banner-1 {
-    background: url("./assets/img/banner/1.jpg");
+    background: url("./img/banner/1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
 .banner-2 {
-    background: url("./assets/img/banner/banner-2.jpg") 50% 50%;
+    background: url("./img/banner/banner-2.jpg") 50% 50%;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 .banner-3 {
-    background: url("./assets/img/banner/banner.jpg");
+    background: url("./img/banner/banner.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -1269,7 +1269,7 @@ service-style-2
     position: relative;
 }
 .page-banner{
-    background: url("./assets/img/banner/bg-3.jpg");
+    background: url("./img/banner/bg-3.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;

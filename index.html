@@ -235,29 +235,32 @@ concevoir une infrastructure web sur un socle technologique le plus adapté à v
                         <h3 class="text-uppercase">Je vous accompagne sur tout type de projet, quelque soit sa taille ou son budget.</h3>
                         <p>Décrivez moi votre projet avec votre Nom et votre Email. Je vous recontacte sous 48h!</p>
                     </div>
-                    <form action="index.html#send" class="sub-form py-4">
+                    <form id="mc-embedded-subscribe-form" action="https://swipsolution.prod.with-datafire.io/contact" method="post" class="sub-form py-4">
     <div class="row">
     <div class="col-lg-4 col-sm-6" style="
     float: left;
 ">
-                        <input type="text" class="form-control" name="name" placeholder="Entrez votre Nom" maxlength="25">
+			<input type="text" name="NAME" class="required form-control" id="mce-NAME" placeholder="Entrez votre Nom" maxlength="25">
         </div><div class="col-lg-8 col-sm-6" style="
     float: left;
 ">
-                        <input type="text" class="form-control" name="email" placeholder="Entrez votre Email" maxlength="30">
+			<input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Entrez votre Email" maxlength="30">
         </div>
         </div>
         <div class="row">
              <div class="col-lg-12 col-sm-6">
-                        <input type="text" class="form-control" placeholder="Votre projet" name="project" maxlength="500">
+			<input type="text" name="PROJET" class="required form-control" id="mce-PROJET" placeholder="Votre projet" name="project" maxlength="500">
             </div>
         </div>
             
+		    <input type="submit" value="Envoyer" name="subscribe" id="mc-embedded-subscribe" class="btn btn-white btn-circled">
                    </form>
-                    <a href="file:///index.html#send" class="btn btn-white btn-circled">Envoyer</a>
                 </div>
                 
             </div>
+        </div>
+        <div class="row">
+	    <div id="subscribe-result"></div>
         </div>
     </section>
     <!--  Subscribe AREA END  -->
